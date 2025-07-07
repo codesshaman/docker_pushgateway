@@ -38,7 +38,7 @@ build:
 
 con:
 	@printf "$(YELLOW)==== Connect to ${name} repo... ====$(NO_COLOR)\n"
-	@docker exec -it promtail bash
+	@docker exec -it pushgateway bash
 
 down:
 	@printf "$(ERROR_COLOR)==== Stopping configuration ${name}... ====$(NO_COLOR)\n"

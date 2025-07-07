@@ -21,7 +21,7 @@ services:
           memory: 512M
     networks:
       network:
-        ipv4_address: $PGTW_HOST
+        ipv4_address: $PUSHGATEWAY_HOST
 
 
 networks:
